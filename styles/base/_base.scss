@@ -15,28 +15,18 @@ html {
     overflow: auto;
     margin: 0;
     color: $text-primary;
-    background-color: $white;
+    background: $bg-color-primary;
     background-size: cover;
-    //background-image: url("../../public/assets/background.png");
     background-size: cover;
     background-position: center;
   }
 }
 
 .page-body {
-  background: #f1f1f1;
+  background: $bg-color-primary;
   width: 100%;
   border-radius: 40px 40px 0px 0px;
-  height: calc(100vh - 195px);
-  overflow: auto;
-  padding: 24px;
-}
-
-.page-body-home {
-  background: #f1f1f1;
-  width: 100%;
-  border-radius: 40px 40px 0px 0px;
-  height: calc(100vh - 100px);
+  height: calc(100vh);
   overflow: auto;
   padding: 24px;
 }

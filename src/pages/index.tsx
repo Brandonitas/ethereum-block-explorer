@@ -8,7 +8,7 @@ const App = () => {
     router.push("/home");
   }, []);
 
-  return <div>...</div>;
+  return <div></div>;
 };
 
 export default App;

@@ -10,21 +10,19 @@ import Head from "next/head";
 import { NextPage } from "next";
 import { AppProps } from "next/app";
 import React from "react";
-
-interface Props {
-  children: React.ReactNode;
-}
+import Nav from "@/components/modules/Nav/Nav";
 
 const App: NextPage<AppProps> = ({ Component, pageProps }): JSX.Element => {
   return (
     <React.Fragment>
       <Head>
-        <title>Kash</title>
-        <meta content="Kash description" name="description" />
+        <title>Ether Block Explorer</title>
+        <meta content="Ether Block Explorer" name="Ether Block Explorer" />
         <meta content="initial-scale=1.0, width=device-width" name="viewport" />
       </Head>
       <main className={quicksand.className}>
         <MainLayout>
+          <Nav />
           <Component {...pageProps} />
         </MainLayout>
       </main>

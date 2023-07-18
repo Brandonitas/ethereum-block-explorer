@@ -1,21 +1,4 @@
 @import "styles/base/colors";
 
-.iconButtonsContainer {
-  background: #f1f1f1;
-  display: flex;
-  gap: 2rem;
-  justify-content: center;
-  margin-top: 24px;
-  margin-bottom: 54px;
-}
-
-.noTransactions {
-  color: $text-lighter-color;
-  text-align: center;
-  margin-top: 24px;
-}
-
-.qrContainer {
-  position: absolute;
-  top: -1000px;
+.homeContainer {
 }
