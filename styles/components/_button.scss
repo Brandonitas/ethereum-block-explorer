@@ -1,0 +1,43 @@
+@import "styles/base/colors";
+
+.buttonKashContainer {
+  .p-button {
+    box-shadow: none;
+    border-radius: 15px;
+    padding: 14px;
+    border: none;
+  }
+
+  .btnSecondary {
+    background-color: $secondary;
+    color: $black;
+
+    &:hover,
+    &:active {
+      background-color: $secondary !important;
+      color: $black !important;
+    }
+  }
+
+  .btnSecondaryBorder {
+    background-color: $secondary;
+    color: $black;
+    border: 1px solid $primary;
+
+    &:hover,
+    &:active {
+      background-color: $secondary !important;
+      color: $black !important;
+    }
+  }
+
+  .btnPrimary {
+    background-color: $primary;
+
+    &:hover,
+    &:active {
+      background-color: $primary !important;
+      color: $white !important;
+    }
+  }
+}

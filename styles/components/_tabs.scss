@@ -1,0 +1,39 @@
+@import "styles/base/colors";
+
+.p-tabview .p-tabview-nav {
+  background: none;
+}
+
+.p-tabview .p-tabview-nav li .p-tabview-nav-link {
+  background: none;
+  justify-content: center;
+  color: $primary-lighter;
+}
+
+.p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link {
+  background: none;
+  justify-content: center;
+  border-color: $primary;
+  color: $primary;
+}
+
+.p-tabview .p-tabview-panels {
+  background: none;
+}
+
+.p-tabview .p-tabview-nav {
+  border: 1px solid transparent;
+}
+
+.p-tabview .p-tabview-nav {
+  justify-content: center;
+}
+
+.p-tabview .p-tabview-nav li {
+  text-align: center;
+  width: 100%;
+}
+
+.p-tabview-title {
+  font-size: 14px;
+}
