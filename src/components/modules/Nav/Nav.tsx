@@ -12,10 +12,10 @@ const Nav: React.FC = (): JSX.Element => {
             alt="logo"
             blurDataURL={"/assets/ebe-logo.png"}
             className={styles.logo}
-            height={66}
+            height={51}
             placeholder={"blur"}
             src="/assets/ebe-logo.png"
-            width={177}
+            width={140}
           />
         </Link>
       </div>
