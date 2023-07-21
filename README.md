@@ -20,10 +20,6 @@ This project is an Etherscan clone, a popular tool used to explore and analyze t
 
 - Block Number or Hash Search: Users can perform specific searches using the desired block number or block hash. This makes it easier to access specific information for research and analysis purposes.
 
-## Screenshot
-
-![Screenshot](screenshot.png)
-
 ## Installation and Usage
 
 1. Clone this repository to your local machine.
