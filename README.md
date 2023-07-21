@@ -1,8 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Etherscan Clone Project
 
-## Getting Started
+![Demo](demo.png)
 
-First, run the development server:
+This project is an Etherscan clone, a popular tool used to explore and analyze the Ethereum network. It utilizes the Alchemy SDK and ethers.js to interact with the network and provides information about the latest 10 blocks and the latest 10 transactions.
+
+## Technology Used
+
+- Next.js: Next.js is a React framework for web applications. We chose it for its focus on ease of development and its ability to support server-side rendering and static site generation.
+
+- Alchemy SDK: The Alchemy SDK allows us to access reliable and optimized blockchain data through its API. We use Alchemy to retrieve up-to-date information about Ethereum blocks and transactions.
+
+- ethers.js: The ethers.js library is widely used for interacting with smart contracts and conducting transactions on Ethereum. It enables us to work with addresses, hashes, and perform cryptographic calculations efficiently.
+
+## Key Features
+
+- Latest 10 Blocks Listing: We display a list of the latest 10 mined blocks on the Ethereum network, providing key details such as block number, hash, and the number of transactions included in each block.
+
+- Latest 10 Transactions Listing: We present a list of the latest 10 confirmed transactions on the network. We include essential information such as transaction hash, sender, recipient, and the value transferred.
+
+- Block Number or Hash Search: Users can perform specific searches using the desired block number or block hash. This makes it easier to access specific information for research and analysis purposes.
+
+## Screenshot
+
+![Screenshot](screenshot.png)
+
+## Installation and Usage
+
+1. Clone this repository to your local machine.
+
+2. Install the dependencies using npm or yarn:
+
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Start the application in development mode
 
 ```bash
 npm run dev
@@ -12,23 +46,12 @@ yarn dev
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open your browser and go to `http://localhost:3000` to access the project.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Contribution
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+We welcome all contributions to this project! If you would like to collaborate, please send a pull request, and we will be happy to review it.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+We hope this project proves to be useful and provides you with a powerful tool to explore and analyze the Ethereum network. If you have any questions or concerns, feel free to contact us or open an issue in this repository. Enjoy exploring the blockchain with our Etherscan clone!
